@@ -101,6 +101,7 @@ function testIfSorted($arr1){
             return false;
         }
         if($j == $len){
+            echo(PHP_EOL);
             return true;
         }
     }
